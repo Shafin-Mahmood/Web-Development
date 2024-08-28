@@ -1,1 +1,0 @@
-HTML is the foundation of web pages, defining their structure and content. It uses elements, attributes, and tags to create web pages. Key elements include headings, paragraphs, lists, links, and images. To style web pages, you'll need to use CSS.
