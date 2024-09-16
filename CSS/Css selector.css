@@ -1,0 +1,23 @@
+body{
+
+ background-color: aqua;
+ }
+
+ h1{
+    color: blue;
+    font-style: italic;
+ }
+
+p{
+    color: blue;
+ }
+
+ h2{
+    color: blue;
+    font-style: italic;
+ }
+ #player{
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
