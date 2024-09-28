@@ -1,0 +1,8 @@
+.header
+{
+    max-width: 500px;
+    border:15px solid lightgreen;
+    background-color: azure;
+    padding: 15px;
+    margin: 45px ;
+}

@@ -1,0 +1,12 @@
+.header
+{
+    border :3px solid black;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+   font-size: 30px;
+    margin-left:50px;
+    margin-top: 40px;
+    padding: 25 px;
+    
+}
