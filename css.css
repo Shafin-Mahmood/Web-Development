@@ -1,0 +1,64 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #80d8ff);
+    color: #333;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.content {
+    animation: fadeIn 2s ease-out forwards;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #333;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+/* Typing effect */
+@keyframes typing {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+@keyframes blinkCaret {
+    0% { border-right-color: rgba(0, 0, 0, 0.75); }
+    50% { border-right-color: transparent; }
+    100% { border-right-color: rgba(0, 0, 0, 0.75); }
+}
+
+.typewriter {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #007bb5;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid rgba(0, 0, 0, 0.75); /* Simulate caret */
+    width: 0; /* Start with hidden text */
+    animation: typing 4s steps(30, end), blinkCaret 0.75s step-end infinite;
+    animation-fill-mode: forwards;
+}
+
+/* Fade in animation for content */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
