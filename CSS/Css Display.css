@@ -1,0 +1,42 @@
+.mydisplay
+{ 
+    padding: 25px;
+    border: 3 px solid red;
+    display: inline;
+}
+.mytable
+{
+    padding: 200px;
+    background-color: aqua;
+    margin-top:  20px; 
+}
+
+.tableContainer
+{
+     width: 50%;
+     margin: auto;
+     background-color:bisque ;
+     padding: 50px; 
+
+}
+
+.tableContainer table
+{
+     border: 2px solid black;
+     border-collapse: collapse;
+    
+}
+
+.tableContainer table th
+{
+     border: 2px solid black;
+     padding : 15px;
+     background-color: blue;
+     
+}
+
+.tableContainer table td
+{
+     border: 2px solid black;
+    
+}

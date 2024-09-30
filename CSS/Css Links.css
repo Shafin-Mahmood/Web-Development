@@ -1,0 +1,43 @@
+#innerlink
+{
+     display: block;
+    width: 150px;
+    margin: auto;
+    padding: 25px;
+    background-color: lightgreen;
+    border-radius: 10px 10px;
+    text-decoration: none;
+
+}
+
+#innerlink:link
+{
+    
+    background-color:blueviolet;
+    color: brown;
+    
+}
+
+#innerlink:visited
+{
+    
+    background-color:rgb(152, 15, 109);
+    color: black;
+    
+}
+
+#innerlink:hover
+{
+    
+    background-color:red;
+    color: white;
+    
+}
+
+#innerlink:checked
+{
+    
+    background-color:rgb(104, 5, 5);
+    color: rgb(30, 25, 25);
+    
+}
