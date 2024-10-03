@@ -1,0 +1,47 @@
+.Container
+{
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.Container-fluid
+{
+    border: 3px solid red;
+    padding: 10px;
+}
+
+.col
+{  
+   border: 3px solid red;
+
+}
+.col-1
+{  
+   border: 3px solid black;
+
+}
+.col-2
+{
+    border: 3px solid black;
+}
+
+.col-3
+{
+    border: 3px solid black;
+}
+.col-8
+{
+    border: 3px solid black;
+}
+.col-4
+{
+    border: 3px solid black;
+}
+.col-5
+{
+    border: 3px solid black;
+}
+.col-7
+{
+    border: 3px solid black;
+}
