@@ -12,7 +12,7 @@
     "express",
     "tea"
   ],
-  "author": "hitesh choudhary",
+  "author": "Shafin Mahmood",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",
